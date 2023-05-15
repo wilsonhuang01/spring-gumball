@@ -39,6 +39,7 @@ public class GumballMachineController {
 
         command.setState( gm.getState().getClass().getName() ) ;
 
+
         String server_ip = "" ;
         String host_name = "" ;
         try { 
